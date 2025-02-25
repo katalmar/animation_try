@@ -12,10 +12,10 @@ function init() {
     renderer.setSize(window.innerWidth, window.innerHeight);
     document.body.appendChild(renderer.domElement);
 
-    camera.position.set(0, 2, 5);
+    camera.position.set(1, 0, 1.5);
 
     const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(5, 10, 7.5);
+    light.position.set(0, 0, 7.5);
     scene.add(light);
 
     clock = new THREE.Clock();
